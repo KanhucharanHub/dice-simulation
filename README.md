@@ -22,7 +22,7 @@ This project simulates the rolling of a dice with an animated interface. The use
 ## Installation
 1. **Clone the repository**:
     ```sh
-    
+    https://github.com/KanhucharanHub/dice-simulation.git
     ```
 
 2. **Install dependencies**:
