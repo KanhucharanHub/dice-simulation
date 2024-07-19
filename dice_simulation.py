@@ -7,7 +7,7 @@ class DiceSimulation:
     def __init__(self, root):
         self.root = root
         self.root.title("Dice Simulation by Karan")
-        self.root.geometry("600x600")
+        self.root.geometry("600x800")
         self.root.configure(bg='#282c34')
 
         self.image_size = (100, 100)  # Set the desired size for dice images
@@ -31,7 +31,7 @@ class DiceSimulation:
 
         self.stats_label = tk.Label(self.root, text="Roll Statistics:", font=("Helvetica", 14), fg='white', bg='#282c34')
         self.stats_label.pack(pady=10)
-        self.stats_text = tk.Text(self.root, height=5, width=50, bg='#282c34', fg='white')
+        self.stats_text = tk.Text(self.root, height=6, width=50, bg='#282c34', fg='white')
         self.stats_text.pack(pady=10)
 
     def roll_dice(self):
